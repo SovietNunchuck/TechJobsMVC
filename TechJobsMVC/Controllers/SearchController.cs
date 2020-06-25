@@ -16,6 +16,7 @@ namespace TechJobsMVC.Controllers
         public IActionResult Index()
         {
             ViewBag.columns = ListController.ColumnChoices;
+            ViewBag.selected = "";
             return View();
         }
 
